@@ -1,1 +1,24 @@
-/* Add your own styles */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top: 20px;
+}
+th,td{
+    padding:8px 12px;
+    border: 1px solid #f8c8dc;
+    text-align: left;
+}
+th{
+    background-color: #e75480;
+    color:#ffffff;
+}
+tbody tr:nth-child(odd){
+    background-color: #fff0f5;
+}
+tbody tr:nth-child(even){
+    background-color: #ffe4ec;
+}
+tbody tr:hover{
+    background-color: #ffc0d9;
+}
